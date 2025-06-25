@@ -7,5 +7,16 @@ public class agenda_telefonica
     public string Correo { get; set; }
     public string Direccion { get; set; }
 
+    //constructor
+    public agenda_telefonica(string nombres, string telefono, int edad, string correo, string direccion)
+    {
+        Nombres = nombres;
+        Telefono = telefono;
+        Edad = edad;
+        Correo = correo;
+        Direccion = direccion;
+    }
+
+
 
 }
